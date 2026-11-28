@@ -64,16 +64,50 @@
 
 #Exercise 3.
 
-weight = float(input("Enter your weight in kg: "))
-height = float(input("Enter your height in meters: "))
+# weight = float(input("Enter your weight in kg: "))
+# height = float(input("Enter your height in meters: "))
 
 # #Calcuate the BMI of a person
 # bmi = weight / (height**2)
 # print(f"Your BMI value is : {bmi:.2f}")
 
-if height <= 0 or weight <= 0:
-    print("Weight and height must be greater than zero.")
-else:
-    #Calcuate the BMI of a person
-    bmi = weight / (height ** 2)
-    print(f"Your BMI value is : {bmi:.2f}")
+# if height <= 0 or weight <= 0:
+#     print("Weight and height must be greater than zero.")
+# else:
+#     #Calcuate the BMI of a person
+#     bmi = weight / (height ** 2)
+#     print(f"Your BMI value is : {bmi:.2f}")
+
+#FUCNTONS
+# print(round(34.4))
+
+# def print_highest_mark(marks):
+#     print(max(marks))
+
+# def highest_mark(marks):
+#     return max(marks)
+
+# marks = [78, 92, 85]
+
+# print_highest_mark(marks)
+# top = highest_mark(marks)
+# print(top + 5)
+
+#METHODS
+
+# s = "hello world"
+# print(s.capitalize())
+# print(s.find("world",0, 13))
+# print(s.lower())
+# print(s.upper())
+# print(s.startswith("world", 6))
+# print(s.split(' '))
+# s = "Hello {name}, you are {age} years old."
+# print(s.format(name = "Alice", age = 30))
+
+#Pratice
+
+name = input("Enter your first and last name : ")
+space = name.find(" ")
+first_name = name[ : space]
+last_name = name [space + 1: ]
